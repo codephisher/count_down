@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.clock{
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.field{
+    font-size: 2rem;
+    height: 2em;
+    width: 2em;
+    margin: 5px;
+    text-align: center;
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+.buttons button{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.buttons button:hover{
+    background-color: lightblue;
+}
+
+.buttons button:disabled{
+    background-color: gray;
+}
+
+
+
+
